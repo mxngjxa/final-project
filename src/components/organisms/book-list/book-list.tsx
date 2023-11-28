@@ -41,7 +41,7 @@ const BookList = ({ books }: BookListProps) => {
         className="border border-slate-300"
         height={250}
         itemCount={books.length}
-        itemSize={35}
+        itemSize={40}
         width={300}
         itemData={books}
       >
