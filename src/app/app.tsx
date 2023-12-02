@@ -32,7 +32,7 @@ const Login = ({ setUser }: LoginProps) => {
   const loginGoogle = async () => {
     const user: Realm.User = await app.logIn(
       Realm.Credentials.google({
-        redirectUrl: "http://localhost:3000/auth.html",
+        redirectUrl: "https://lucky-dodol-291a44.netlify.app/auth.html",
       })
     );
     setUser(user);
