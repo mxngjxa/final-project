@@ -38,11 +38,11 @@ const BookList = ({ books }: BookListProps) => {
   if (books) {
     return (
       <FixedSizeList
-        className="border border-slate-300"
+        className="mx-auto border border-slate-300"
         height={250}
         itemCount={books.length}
         itemSize={40}
-        width={300}
+        width={500}
         itemData={books}
       >
         {/* 
